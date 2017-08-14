@@ -1,0 +1,68 @@
+ *{
+	font-family:"微软雅黑";
+ }
+ .personal-right{
+	width:75%; float:right;
+ }
+ .personal-left{
+	width:20%; float:left; background-color:#f2f2f2; text-align:center; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px;
+ }
+ .personal-left h3{
+	width:100px; margin:0 auto; border-bottom:2px solid #FF9BC1; color:#000; font-weight:bold; line-height:50px; font-size:20px;
+ }
+ .personal-left ul{
+	margin:0 auto; padding:10px 0; border-bottom:3px solid #fff;
+ }
+ .personal-left ul li{
+	list-style:none; line-height:30px;
+ }
+ .personal-left ul li:hover,.personal-left ul li.active{
+	background-color:#FF9BC1; color:#fff;
+ }
+ .personal-info p{
+	margin-bottom:10px;
+ }
+ .personal-info-name{
+	 font-size:140%;
+ }
+ .personal-info-editbutton{
+	width:100px; line-height:25px; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; background-color:#FF9BC1;
+ }
+ .personal-info-margin-left{
+	margin-left:2em;
+ }
+ .personal-case-password-bt{
+	width:150px; border:1px solid #FF9BC1; line-height:35px; text-align:center; margin-left:30px; background-color:#FF9BC1; color:#fff; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; 
+ }
+ .personal-case-password-contain{
+	width:600px; padding:20px 0; text-align:center; border:1px solid #FF9BC1; margin-top:-15px;
+ }
+ .personal-case-password-button{
+	background-color:#FF9BC1;
+ }
+ .personal-table-select{
+	margin:15px auto;
+ }
+ .personal-table-select input{
+	line-height:25px; width:130px;
+ }
+ .personal-table-select select{
+	line-height:25px; width:80px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
