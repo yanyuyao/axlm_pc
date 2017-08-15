@@ -285,9 +285,36 @@
  
  
  
- 
- 
- 
+ .blog-price{
+	width:100%; 
+	text-align:center; 
+	color:#F05992; 
+	font-size:20px;
+	line-height:45px;
+ }
+ .blog-bt{
+	width:100%;
+	text-align:center;
+	line-height:35px;
+ }
+ .blog-buybutton1{
+	width:40%;
+	line-height:30px;
+	color:#f05992;
+	border:1px solid #f05992;
+	background-color:#fff;
+	margin:25px 0 15px 7%;
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+ }
+ .blog-buybutton2{
+	width:40%;
+	line-height:30px;
+	color:#fff;
+	border:1px solid #f05992;
+	background-color:#f05992;
+	margin:25px 0 25px 6%;
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+ }
  
  
  

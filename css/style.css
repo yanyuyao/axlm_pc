@@ -767,7 +767,7 @@ ul.social-slide li i.mac{
   top:-29px !important;
 }
 .glyphicon-home,.glyphicon-map-marker,.glyphicon-leaf,.glyphicon-globe,.glyphicon-user,
-.glyphicon-pencil,.glyphicon-calendar{
+.glyphicon-pencil,.glyphicon-calendar,.glyphicon-star{
   color: #fff;
   background-color:#FF9BC1;
   border-radius: 30px;
@@ -1642,8 +1642,8 @@ ul.ert{
 	float:left;
 	width:31.45%;
 }
-.ipsum-grid-grids:nth-child(4){
-	margin:0 2em;
+.ipsum-grid-grids:nth-child(4),.ipsum-grid-grids:nth-child(5),.ipsum-grid-grids:nth-child(6){
+	margin-left:2em;
 }
 .ipsum-grids h3{
 	margin:0 0 2em;
