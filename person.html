@@ -1,0 +1,95 @@
+
+<!DOCTYPE>
+<html>
+<head>
+<title>明德爱心联盟</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="mdaxlm" />
+<link href="css/68ecshop_common.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/da_slider.css" rel="stylesheet" type="text/css">
+<link href="css/flexy-menu.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style-my.css" rel="stylesheet" type="text/css">
+
+<link href="css/person.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+	<div class="news">
+		<div class="container">
+        	<!--person-left start-->
+			<div class="hy-person-left">
+				<div class="hy-person-left-head">
+                	<img class="hy-person-left-head-head" src="images/axlm-head.jpg">
+                    <div class="hy-person-left-head-name">
+                    	U159GHFJ1245
+                    </div>
+                    <div class="hy-person-left-head-button">
+                    	<a href="#">
+                    	<div class="hy-person-left-head-button1">
+                        	<img src="images/axlm-edit.png">修改资料
+                        </div>
+                        </a>
+                        <a href="#">
+                        <div class="hy-person-left-head-button1">
+                        	<img src="images/axlm-exit.png">安全退出
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hy-person-left-list">
+                	<ul class="hy-person-left-list-left">
+                    	<li class="hy-person-left-list-left-active hy-person-listbg1">
+                        	会员中心
+                        	<ul class="hy-person-left-list-right">
+                            	<li class="hy-person-left-list-right-active">欢迎页</li>
+                                <li>用户信息</li>
+                                <li>账户安全</li>
+                                <li>收货地址</li>
+                                <li>资金账户</li>
+                            </ul>
+                        </li>
+                        <li class="hy-person-listbg2">
+                        	交易中心
+                        	<ul class="hy-person-left-list-right">
+                            	<li class="hy-person-left-list-right-active">交易中心</li>
+                                <li>用户信息</li>
+                                <li>账户安全</li>
+                                <li>收货地址</li>
+                                <li>资金账户</li>
+                            </ul>
+                        </li>
+                        <li class="hy-person-listbg3">
+                        	服务中心
+                        	<ul class="hy-person-left-list-right">
+                            	<li class="hy-person-left-list-right-active">服务中心</li>
+                                <li>用户信息</li>
+                                <li>账户安全</li>
+                                <li>收货地址</li>
+                                <li>资金账户</li>
+                            </ul>
+                        </li>
+                    </div>
+                
+                </div>    
+			</div>
+            <!--person-left end-->
+		</div>
+	</div>
+    <script src="js/jquery-1.9.1.min.js"></script>
+	<script>
+		$(".hy-person-left-list-left").children("li").click(function(){
+			$(this).addClass("hy-person-left-list-left-active");
+			$(this).siblings("li").removeClass("hy-person-left-list-left-active");
+		})
+		$(".hy-person-left-list-right").children("li").click(function(){
+			$(this).addClass("hy-person-left-list-right-active");
+			$(this).siblings("li").removeClass("hy-person-left-list-right-active");
+		})		
+	
+	</script>
+</body>
+</html>
